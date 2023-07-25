@@ -1,0 +1,9 @@
+package bytebank_herdado_conta;
+
+public class ContaCorrente extends Conta {
+	
+	public ContaCorrente(int numero, int agencia) {
+		super(agencia, numero);
+	}
+	
+}

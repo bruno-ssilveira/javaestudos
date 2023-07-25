@@ -1,0 +1,10 @@
+package bytebank_herdado;
+
+public class Gerente extends Autenticavel {
+
+	public double getBonificacao() {
+		System.out.println("bonificacao Gerente");
+		return super.getSalario();
+	}
+	
+}

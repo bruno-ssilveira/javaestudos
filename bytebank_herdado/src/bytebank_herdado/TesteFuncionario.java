@@ -1,0 +1,21 @@
+package bytebank_herdado;
+
+public class TesteFuncionario {
+	
+	public static void main(String[] args) {
+		
+		Gerente nico = new Gerente();
+		
+		nico.setNome("nico nico");
+		nico.setCpf("258258258-10");
+		nico.setSalario(2321.68);
+		
+		System.out.println(nico.getNome());
+		System.out.println(nico.getBonificacao());
+		
+		Gerente bruno = new Gerente();
+		bruno.setSalario(10000.0);
+		System.out.println(bruno.getBonificacao());
+		
+	}
+}
